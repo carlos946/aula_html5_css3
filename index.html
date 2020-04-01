@@ -4,78 +4,111 @@
         <meta charset="uft-8">
         <title>TecCorp</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     </head>
         
     <body>
-        <nav>
-            <p>TecCorp</p>
-            <ul>
-                <li><a href="#servicos">SERVIÇOS</a></li>
-                <li><a href="#clientes">CLIENTES</a></li>
-                <li><a href="#time">TIME</a></li>
-                <li><a href="#contato">CONTATO</a></li>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">TecCorp</a>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#servicos">SERVIÇOS</a></li>
+                <li class="nav-item"><a class="nav-link" href="#clientes">CLIENTES</a></li>
+                <li class="nav-item"><a class="nav-link" href="#time">TIME</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">CONTATO</a></li>
             </ul>
+        </div>
+
         </nav>
 
         <header>
-            <h1>TecCorp</h1>
+            <div class="container">
+            <h1 class="topo">TecCorp</h1>
             <p>Oferecemos o desenvolvimento dos melhores sites e apps para sua empresa</p>
+            </div>
         </header>
 
-        <section id="servicos">
+        <section class="margin" id="servicos">
+            <div class="container">
             <h2>SERVIÇOS</h2>
-            <p>
-                Oferecemos os melhores serviços em desenvolvimento de sites e aplicativos no mercador.
-            </p>
-            <div>         
-                <img src="img/site.jpg" class="img_padrao">
+            <div class="row">
+            <div class="col-lg-6">       
+                <p>
+                    Oferecemos os melhores serviços em desenvolvimento de sites e aplicativos no mercador.
+                </p>  
+                <img src="img/site.jpg" class="rounded-circle">
             </div>
-            <div>
-                <img src="img/app.jpeg" class="img_padrao">
+            <div class="col-lg-6">
+                <p>
+                    Oferecemos os melhores serviços em desenvolvimento de sites e aplicativos no mercador.
+                </p>
+                <img src="img/app.jpeg" class="rounded-circle">
+            </div>
+            </div>
             </div>
         </section>
 
-        <section id="clientes">
+        <section class="margin" id="clientes">
+            <div class="container">
             <h2>CLIENTES</h2>
-            <p>
-                Nossos estão muito satifestos com o nossa trabalho, venha ser um dos nossos clinetes.
-            </p>
-            <div>
-                <img src="img/cliente1.jpeg" class="img_padrao">
+            <div class="row">
+            <div class="col-lg-6">
+                <p>
+                    Nossos estão muito satifestos com o nossa trabalho, venha ser um dos nossos clinetes.
+                </p>
+                <img src="img/cliente1.jpeg" class="rounded-circle">
             </div>
-            <div>
-                <img src="img/cliente2.jpeg" class="img_padrao">
+            <div class="col-lg-6">
+                <p>
+                    Nossos estão muito satifestos com o nossa trabalho, venha ser um dos nossos clinetes.
+                </p>
+                <img src="img/cliente2.jpeg" class="rounded-circle">
+            </div>
+            </div>
             </div>
         </section>
 
-        <section id="time">
+        <section class="margin" id="time">
+            <div class="container">
             <h2>TIME</h2>
-            <p>
-                Nosso time está sempre bem preparado para te atender com as melhores soluções.
-            </p>
-            <div>
-                <img src="img/time1.jpeg" class="img_padrao">
+            <div class="row">
+            <div class="col-lg-6">
+                <p>
+                    Nosso time está sempre bem preparado para te atender com as melhores soluções.
+                </p>
+                <img src="img/time1.jpeg" class="rounded-circle">
             </div>
-            <div>
-                <img src="img/time2.jpeg" class="img_padrao">
+            <div class="col-lg-6">
+                <p>
+                    Nosso time está sempre bem preparado para te atender com as melhores soluções.
+                </p>
+                <img src="img/time2.jpeg" class="rounded-circle">
+            </div>
+            </div>
             </div>
         </section>
 
         <section id="contato">
+            <div class="container">
             <h2>CONTATO</h2>
             <p>Entre em contato com a nossa equipe agora mesmo.</p>
             <div>
-                <img src="img/fone.jpg">
+                <img src="img/fone.jpg" class="contato">
              </div>   
             <p><a href="tel:7799999999">(77) 9999-9999</a></p>
              <div>
-                <img src="img/email.png">
+                <img src="img/email.png" class="contato">
             </div>
             <p><a href="mailto:teccorp@teccorp.com">teccorp@teccorp.com</a></p>
+            </div>
         </section>
 
         <footer>
+            <div class="container">
             <p>Desenvolvido pro Carlos Brito</p>
+            </div>
         </footer>
+    
     </body>
 </html>

@@ -1,6 +1,11 @@
 body {
     margin-right: 30px;
     margin-left: 30px;
+    font: 19px Arial, sans-serif;
+}
+
+.topo {
+    padding-top: 34px;
 }
 
 h1 {
@@ -11,15 +16,21 @@ h2 {
     font-family: fantasy;
 }
 
-p {
-    font-size: 18px;
-}
-
-img {
+.contato {
     width: 30px;
 }
 
-.img_padrao {
+.rounded-circle {
     width: 300px;
+    height: 300px;
     margin-bottom: 20px;
+}
+
+.navbar {
+    background-color: #00BFFF;
+}
+
+.margin {
+    padding-bottom: 50px;
+    padding-top: 20px;
 }
